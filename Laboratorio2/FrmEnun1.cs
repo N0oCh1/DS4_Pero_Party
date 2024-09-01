@@ -19,7 +19,7 @@ namespace Laboratorio2
 
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
-            double ganancias = 0, impuesto = 0;
+            decimal ganancias = 0, impuesto = 0;
             decimal total = 0;
             total = NumCosto.Value;
             CalculadoraEnun1 calculadora = new CalculadoraEnun1();

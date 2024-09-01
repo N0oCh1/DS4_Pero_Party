@@ -8,13 +8,13 @@ namespace Laboratorio2
 {
     internal class CalculadoraEnun1
     {
-        public double Impuesto (decimal valor)
+        public decimal Impuesto (decimal valor)
         {
-            return Convert.ToDouble((valor * 6) / 100);
+            return Convert.ToDecimal((valor * 6) / 100);
         }
-        public double Ganancias (decimal valor)
+        public decimal Ganancias (decimal valor)
         {
-            return Convert.ToDouble((valor * 12) / 100);
+            return Convert.ToDecimal((valor * 2) / 100);
         }
     }
 }
