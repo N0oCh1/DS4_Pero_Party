@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
+            this.label5 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
-            this.TxtbCosto = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.label2 = new System.Windows.Forms.Label();
@@ -42,13 +42,14 @@
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.label4 = new System.Windows.Forms.Label();
             this.TxtbTotal = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
             this.BtnCalcular = new System.Windows.Forms.Button();
+            this.NumCosto = new System.Windows.Forms.NumericUpDown();
             this.flowLayoutPanel1.SuspendLayout();
             this.flowLayoutPanel3.SuspendLayout();
             this.flowLayoutPanel4.SuspendLayout();
             this.flowLayoutPanel5.SuspendLayout();
             this.flowLayoutPanel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NumCosto)).BeginInit();
             this.SuspendLayout();
             // 
             // flowLayoutPanel1
@@ -68,6 +69,19 @@
             this.flowLayoutPanel1.Size = new System.Drawing.Size(561, 433);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
+            // label5
+            // 
+            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.Location = new System.Drawing.Point(15, 12);
+            this.label5.Margin = new System.Windows.Forms.Padding(3, 0, 3, 24);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(497, 25);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Calculadora de Ganancias de Automibiles";
+            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
+            // 
             // flowLayoutPanel2
             // 
             this.flowLayoutPanel2.AutoSize = true;
@@ -81,22 +95,12 @@
             this.flowLayoutPanel3.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
             this.flowLayoutPanel3.AutoSize = true;
             this.flowLayoutPanel3.Controls.Add(this.label1);
-            this.flowLayoutPanel3.Controls.Add(this.TxtbCosto);
+            this.flowLayoutPanel3.Controls.Add(this.NumCosto);
             this.flowLayoutPanel3.Location = new System.Drawing.Point(15, 70);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
             this.flowLayoutPanel3.Padding = new System.Windows.Forms.Padding(12);
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(495, 54);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(497, 60);
             this.flowLayoutPanel3.TabIndex = 1;
-            // 
-            // TxtbCosto
-            // 
-            this.TxtbCosto.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.TxtbCosto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtbCosto.Location = new System.Drawing.Point(171, 12);
-            this.TxtbCosto.Margin = new System.Windows.Forms.Padding(0);
-            this.TxtbCosto.Name = "TxtbCosto";
-            this.TxtbCosto.Size = new System.Drawing.Size(312, 30);
-            this.TxtbCosto.TabIndex = 6;
             // 
             // label1
             // 
@@ -104,7 +108,7 @@
             this.label1.AutoSize = true;
             this.label1.BackColor = System.Drawing.Color.Transparent;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(12, 14);
+            this.label1.Location = new System.Drawing.Point(12, 17);
             this.label1.Margin = new System.Windows.Forms.Padding(0);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(159, 25);
@@ -118,10 +122,10 @@
             this.flowLayoutPanel4.AutoSize = true;
             this.flowLayoutPanel4.Controls.Add(this.label2);
             this.flowLayoutPanel4.Controls.Add(this.TxtbGanancias);
-            this.flowLayoutPanel4.Location = new System.Drawing.Point(15, 130);
+            this.flowLayoutPanel4.Location = new System.Drawing.Point(15, 136);
             this.flowLayoutPanel4.Name = "flowLayoutPanel4";
             this.flowLayoutPanel4.Padding = new System.Windows.Forms.Padding(12);
-            this.flowLayoutPanel4.Size = new System.Drawing.Size(495, 54);
+            this.flowLayoutPanel4.Size = new System.Drawing.Size(497, 54);
             this.flowLayoutPanel4.TabIndex = 2;
             // 
             // label2
@@ -155,10 +159,10 @@
             this.flowLayoutPanel5.AutoSize = true;
             this.flowLayoutPanel5.Controls.Add(this.label3);
             this.flowLayoutPanel5.Controls.Add(this.TxtbInpuesto);
-            this.flowLayoutPanel5.Location = new System.Drawing.Point(15, 190);
+            this.flowLayoutPanel5.Location = new System.Drawing.Point(15, 196);
             this.flowLayoutPanel5.Name = "flowLayoutPanel5";
             this.flowLayoutPanel5.Padding = new System.Windows.Forms.Padding(12);
-            this.flowLayoutPanel5.Size = new System.Drawing.Size(495, 54);
+            this.flowLayoutPanel5.Size = new System.Drawing.Size(497, 54);
             this.flowLayoutPanel5.TabIndex = 3;
             // 
             // label3
@@ -192,10 +196,10 @@
             this.flowLayoutPanel6.AutoSize = true;
             this.flowLayoutPanel6.Controls.Add(this.label4);
             this.flowLayoutPanel6.Controls.Add(this.TxtbTotal);
-            this.flowLayoutPanel6.Location = new System.Drawing.Point(15, 250);
+            this.flowLayoutPanel6.Location = new System.Drawing.Point(15, 256);
             this.flowLayoutPanel6.Name = "flowLayoutPanel6";
             this.flowLayoutPanel6.Padding = new System.Windows.Forms.Padding(12);
-            this.flowLayoutPanel6.Size = new System.Drawing.Size(495, 54);
+            this.flowLayoutPanel6.Size = new System.Drawing.Size(497, 54);
             this.flowLayoutPanel6.TabIndex = 7;
             // 
             // label4
@@ -223,19 +227,6 @@
             this.TxtbTotal.Size = new System.Drawing.Size(397, 30);
             this.TxtbTotal.TabIndex = 6;
             // 
-            // label5
-            // 
-            this.label5.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.Location = new System.Drawing.Point(15, 12);
-            this.label5.Margin = new System.Windows.Forms.Padding(3, 0, 3, 24);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(495, 25);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Calculadora de Ganancias de Automibiles";
-            this.label5.TextAlign = System.Drawing.ContentAlignment.TopCenter;
-            // 
             // BtnCalcular
             // 
             this.BtnCalcular.Anchor = System.Windows.Forms.AnchorStyles.Right;
@@ -245,7 +236,7 @@
             this.BtnCalcular.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.BtnCalcular.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnCalcular.ForeColor = System.Drawing.Color.Violet;
-            this.BtnCalcular.Location = new System.Drawing.Point(332, 323);
+            this.BtnCalcular.Location = new System.Drawing.Point(334, 329);
             this.BtnCalcular.Margin = new System.Windows.Forms.Padding(16);
             this.BtnCalcular.Name = "BtnCalcular";
             this.BtnCalcular.Padding = new System.Windows.Forms.Padding(4);
@@ -254,6 +245,14 @@
             this.BtnCalcular.Text = "Calcular";
             this.BtnCalcular.UseVisualStyleBackColor = false;
             this.BtnCalcular.Click += new System.EventHandler(this.BtnCalcular_Click);
+            // 
+            // NumCosto
+            // 
+            this.NumCosto.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NumCosto.Location = new System.Drawing.Point(174, 15);
+            this.NumCosto.Name = "NumCosto";
+            this.NumCosto.Size = new System.Drawing.Size(308, 30);
+            this.NumCosto.TabIndex = 1;
             // 
             // FrmEnun1
             // 
@@ -275,6 +274,7 @@
             this.flowLayoutPanel5.PerformLayout();
             this.flowLayoutPanel6.ResumeLayout(false);
             this.flowLayoutPanel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.NumCosto)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -284,7 +284,6 @@
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel2;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
-        private System.Windows.Forms.TextBox TxtbCosto;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel4;
         private System.Windows.Forms.Label label2;
@@ -297,5 +296,6 @@
         private System.Windows.Forms.TextBox TxtbTotal;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button BtnCalcular;
+        private System.Windows.Forms.NumericUpDown NumCosto;
     }
 }
