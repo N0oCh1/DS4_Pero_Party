@@ -21,6 +21,7 @@ namespace Laboratorio2
         {
             FrmEnun1 frmEnun1 = new FrmEnun1();
             frmEnun1.Show();
+            //awdawddd
         }
     }
 }
