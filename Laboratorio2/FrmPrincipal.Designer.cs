@@ -52,7 +52,7 @@
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel2);
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel3);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(72, 90);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(66, 79);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
             this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(28);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(656, 299);
@@ -69,7 +69,6 @@
             this.label1.Size = new System.Drawing.Size(400, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "Menu de enunciados para laboratorio #2";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // flowLayoutPanel2
             // 
@@ -117,7 +116,6 @@
             this.BtnEnun2.TabIndex = 1;
             this.BtnEnun2.Text = "Enunciado 2";
             this.BtnEnun2.UseVisualStyleBackColor = false;
-            this.BtnEnun2.Click += new System.EventHandler(this.button1_Click);
             // 
             // BtnEnun3
             // 

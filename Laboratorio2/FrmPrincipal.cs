@@ -17,19 +17,10 @@ namespace Laboratorio2
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void BtnEnun1_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
+            FrmEnun1 frmEnun1 = new FrmEnun1();
+            frmEnun1.Show();
         }
     }
 }
