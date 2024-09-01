@@ -15,6 +15,7 @@ namespace Laboratorio2
         public FrmEnun1()
         {
             InitializeComponent();
+            NumCosto.Maximum = 9999999999999;
         }
 
         private void BtnCalcular_Click(object sender, EventArgs e)
