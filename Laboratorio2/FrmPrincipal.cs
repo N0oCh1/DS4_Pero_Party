@@ -10,11 +10,17 @@ using System.Windows.Forms;
 
 namespace Laboratorio2
 {
-    public partial class Form1 : Form
+    public partial class FrmPrincipal : Form
     {
-        public Form1()
+        public FrmPrincipal()
         {
             InitializeComponent();
+        }
+
+        private void BtnEnun1_Click(object sender, EventArgs e)
+        {
+            FrmEnun1 frmEnun1 = new FrmEnun1();
+            frmEnun1.Show();
         }
     }
 }

@@ -1,0 +1,124 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|c:\\users\\ruben feng\\desktop\\portafolios\\ds 4\\laboratorio2\\laboratorio2\\frmenun1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|solutionrelative:laboratorio2\\frmenun1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|c:\\users\\ruben feng\\desktop\\portafolios\\ds 4\\laboratorio2\\laboratorio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|solutionrelative:laboratorio2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|c:\\users\\ruben feng\\desktop\\portafolios\\ds 4\\laboratorio2\\laboratorio2\\frmenun1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|solutionrelative:laboratorio2\\frmenun1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|c:\\users\\ruben feng\\desktop\\portafolios\\ds 4\\laboratorio2\\laboratorio2\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|solutionrelative:laboratorio2\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|c:\\users\\ruben feng\\desktop\\portafolios\\ds 4\\laboratorio2\\laboratorio2\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|solutionrelative:laboratorio2\\frmprincipal.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|c:\\users\\ruben feng\\desktop\\portafolios\\ds 4\\laboratorio2\\laboratorio2\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{43273682-6B66-48C8-AF4A-A5D46FDA28EF}|Laboratorio2\\Laboratorio2.csproj|solutionrelative:laboratorio2\\frmprincipal.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 5,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "FrmPrincipal.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmPrincipal.Designer.cs",
+              "RelativeDocumentMoniker": "Laboratorio2\\FrmPrincipal.Designer.cs",
+              "ToolTip": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmPrincipal.Designer.cs",
+              "RelativeToolTip": "Laboratorio2\\FrmPrincipal.Designer.cs",
+              "ViewState": "AQIAACIAAAAAAAAAAAASwEwAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:28:13.63Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\Program.cs",
+              "RelativeDocumentMoniker": "Laboratorio2\\Program.cs",
+              "ToolTip": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\Program.cs",
+              "RelativeToolTip": "Laboratorio2\\Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:27:59.043Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FrmPrincipal.cs",
+              "DocumentMoniker": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Laboratorio2\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmPrincipal.cs",
+              "RelativeToolTip": "Laboratorio2\\FrmPrincipal.cs",
+              "ViewState": "AQIAAAcAAAAAAAAAAAASwBcAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:26:52.202Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FrmEnun1.cs",
+              "DocumentMoniker": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmEnun1.cs",
+              "RelativeDocumentMoniker": "Laboratorio2\\FrmEnun1.cs",
+              "ToolTip": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmEnun1.cs*",
+              "RelativeToolTip": "Laboratorio2\\FrmEnun1.cs*",
+              "ViewState": "AQIAABgAAAAAAAAAAAAvwCkAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:08:26.485Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FrmEnun1.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmEnun1.cs",
+              "RelativeDocumentMoniker": "Laboratorio2\\FrmEnun1.cs",
+              "ToolTip": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmEnun1.cs [Dise\u00F1o]*",
+              "RelativeToolTip": "Laboratorio2\\FrmEnun1.cs [Dise\u00F1o]*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-01T02:02:29.211Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "FrmPrincipal.cs [Dise\u00F1o]",
+              "DocumentMoniker": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmPrincipal.cs",
+              "RelativeDocumentMoniker": "Laboratorio2\\FrmPrincipal.cs",
+              "ToolTip": "C:\\Users\\Ruben Feng\\Desktop\\Portafolios\\DS 4\\Laboratorio2\\Laboratorio2\\FrmPrincipal.cs [Dise\u00F1o]",
+              "RelativeToolTip": "Laboratorio2\\FrmPrincipal.cs [Dise\u00F1o]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-29T21:38:08.525Z",
+              "EditorCaption": " [Dise\u00F1o]"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
