@@ -28,7 +28,6 @@ namespace Laboratorio2
             impuesto = calculadora.Impuesto(total);
             TxtbGanancias.Text = Convert.ToString(ganancias);
             TxtbInpuesto.Text = Convert.ToString(impuesto);
-            //wdadddd
             TxtbTotal.Text = Convert.ToString(ganancias+impuesto+total); 
         }
     }
