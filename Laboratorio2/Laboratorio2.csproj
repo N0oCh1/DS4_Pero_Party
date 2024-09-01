@@ -47,6 +47,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculadoraEnun1.cs" />
+    <Compile Include="FrmEnun2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEnun2.Designer.cs">
+      <DependentUpon>FrmEnun2.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmEnun1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -63,6 +69,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmEnun1.resx">
       <DependentUpon>FrmEnun1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEnun2.resx">
+      <DependentUpon>FrmEnun2.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>

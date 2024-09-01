@@ -20,3 +20,4 @@ C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2
 C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.csproj.CoreCompileInputs.cache
 C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.exe
 C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.pdb
+C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.FrmEnun2.resources

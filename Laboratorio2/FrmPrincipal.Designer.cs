@@ -116,6 +116,7 @@
             this.BtnEnun2.TabIndex = 1;
             this.BtnEnun2.Text = "Enunciado 2";
             this.BtnEnun2.UseVisualStyleBackColor = false;
+            this.BtnEnun2.Click += new System.EventHandler(this.BtnEnun2_Click);
             // 
             // BtnEnun3
             // 

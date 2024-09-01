@@ -14,7 +14,7 @@ namespace Laboratorio2
         }
         public decimal Ganancias (decimal valor)
         {
-            return Convert.ToDecimal((valor * 10) / 100);
+            return Convert.ToDecimal((valor * 12) / 100);
         }
     }
 }

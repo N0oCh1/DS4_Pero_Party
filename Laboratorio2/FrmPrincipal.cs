@@ -23,5 +23,11 @@ namespace Laboratorio2
             frmEnun1.Show();
             //awdawddd
         }
+
+        private void BtnEnun2_Click(object sender, EventArgs e)
+        {
+            FrmEnun2 frmEnun2 = new FrmEnun2();
+            frmEnun2.Show();
+        }
     }
 }
