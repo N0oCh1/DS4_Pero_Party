@@ -134,6 +134,7 @@
             this.BtnEnun3.TabIndex = 2;
             this.BtnEnun3.Text = "Enunciado 3";
             this.BtnEnun3.UseVisualStyleBackColor = false;
+            this.BtnEnun3.Click += new System.EventHandler(this.BtnEnun3_Click);
             // 
             // flowLayoutPanel3
             // 
