@@ -47,7 +47,6 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculadoraEnun1.cs" />
-    <Compile Include="CalcularEnun3.cs" />
     <Compile Include="FrmEnun3.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -12,6 +12,8 @@ namespace Laboratorio2
 {
     public partial class FrmEnun3 : Form
     {
+        public List<decimal> Lgenero = new List<decimal>();
+        public List<decimal> Ledad = new List<decimal>();
         public FrmEnun3()
         {
             InitializeComponent();
@@ -21,18 +23,23 @@ namespace Laboratorio2
 
         private void BtnCalcular_Click(object sender, EventArgs e)
         {
-            List<CalcularEnun3> datos = new List<CalcularEnun3>();
             decimal edad = NumEdad.Value;
             decimal genero = NumGenero.Value;
-            if(Convert.ToInt32(genero)== 0 ) 
+            decimal PHombre = 0, PMujer = 0;
+            decimal 
+            if (genero == 0) 
             {
-                LbRegistros.Items.Add($"{datos[1].edad} {datos[1].genero}");
-                
+                for(int i = 0; i < Lgenero.Count; i++)
+                {
+
+                }
+                    LbRegistros.Items.Add($"{Ledad[i]} {Lgenero[i]}");
             }
             else
             {
+                Ledad.Add(edad);
+                Lgenero.Add(genero);
                 LbRegistros.Items.Add("dato resgistrado");
-                datos.Add(new CalcularEnun3(edad, genero));
                 NumEdad.Value = 1;
                 NumGenero.Value = 1;
             }
