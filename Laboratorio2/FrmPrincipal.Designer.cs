@@ -33,7 +33,6 @@
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnEnun1 = new System.Windows.Forms.Button();
             this.BtnEnun2 = new System.Windows.Forms.Button();
-            this.BtnEnun3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnEnun4 = new System.Windows.Forms.Button();
             this.BtnEnun5 = new System.Windows.Forms.Button();
@@ -72,14 +71,14 @@
             // 
             // flowLayoutPanel2
             // 
+            this.flowLayoutPanel2.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.flowLayoutPanel2.AutoSize = true;
             this.flowLayoutPanel2.Controls.Add(this.BtnEnun1);
             this.flowLayoutPanel2.Controls.Add(this.BtnEnun2);
-            this.flowLayoutPanel2.Controls.Add(this.BtnEnun3);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(31, 80);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(114, 80);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
             this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(8);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(592, 91);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(426, 91);
             this.flowLayoutPanel2.TabIndex = 0;
             // 
             // BtnEnun1
@@ -112,29 +111,11 @@
             this.BtnEnun2.Margin = new System.Windows.Forms.Padding(16);
             this.BtnEnun2.Name = "BtnEnun2";
             this.BtnEnun2.Padding = new System.Windows.Forms.Padding(4);
-            this.BtnEnun2.Size = new System.Drawing.Size(160, 41);
+            this.BtnEnun2.Size = new System.Drawing.Size(186, 41);
             this.BtnEnun2.TabIndex = 1;
-            this.BtnEnun2.Text = "Enunciado 2";
+            this.BtnEnun2.Text = "Enunciado 2, 3";
             this.BtnEnun2.UseVisualStyleBackColor = false;
             this.BtnEnun2.Click += new System.EventHandler(this.BtnEnun2_Click);
-            // 
-            // BtnEnun3
-            // 
-            this.BtnEnun3.AutoSize = true;
-            this.BtnEnun3.BackColor = System.Drawing.Color.Black;
-            this.BtnEnun3.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.BtnEnun3.FlatStyle = System.Windows.Forms.FlatStyle.System;
-            this.BtnEnun3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnEnun3.ForeColor = System.Drawing.Color.White;
-            this.BtnEnun3.Location = new System.Drawing.Point(408, 24);
-            this.BtnEnun3.Margin = new System.Windows.Forms.Padding(16);
-            this.BtnEnun3.Name = "BtnEnun3";
-            this.BtnEnun3.Padding = new System.Windows.Forms.Padding(4);
-            this.BtnEnun3.Size = new System.Drawing.Size(160, 41);
-            this.BtnEnun3.TabIndex = 2;
-            this.BtnEnun3.Text = "Enunciado 3";
-            this.BtnEnun3.UseVisualStyleBackColor = false;
-            this.BtnEnun3.Click += new System.EventHandler(this.BtnEnun3_Click);
             // 
             // flowLayoutPanel3
             // 
@@ -226,7 +207,6 @@
         private System.Windows.Forms.Button BtnEnun2;
         private System.Windows.Forms.Button BtnEnun1;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Button BtnEnun3;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel3;
         private System.Windows.Forms.Button BtnEnun4;
         private System.Windows.Forms.Button BtnEnun5;
