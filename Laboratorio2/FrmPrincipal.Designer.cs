@@ -51,11 +51,11 @@
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel2);
             this.flowLayoutPanel1.Controls.Add(this.flowLayoutPanel3);
             this.flowLayoutPanel1.FlowDirection = System.Windows.Forms.FlowDirection.TopDown;
-            this.flowLayoutPanel1.Location = new System.Drawing.Point(50, 64);
-            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel1.Location = new System.Drawing.Point(67, 79);
+            this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(21, 23, 21, 23);
-            this.flowLayoutPanel1.Size = new System.Drawing.Size(516, 243);
+            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(28, 28, 28, 28);
+            this.flowLayoutPanel1.Size = new System.Drawing.Size(779, 302);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
             // label1
@@ -63,10 +63,10 @@
             this.label1.Anchor = System.Windows.Forms.AnchorStyles.None;
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(91, 23);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 20);
+            this.label1.Location = new System.Drawing.Point(188, 28);
+            this.label1.Margin = new System.Windows.Forms.Padding(3, 0, 3, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(332, 20);
+            this.label1.Size = new System.Drawing.Size(400, 25);
             this.label1.TabIndex = 4;
             this.label1.Text = "Menu de enunciados para laboratorio #2";
             // 
@@ -76,11 +76,11 @@
             this.flowLayoutPanel2.AutoSize = true;
             this.flowLayoutPanel2.Controls.Add(this.BtnEnun1);
             this.flowLayoutPanel2.Controls.Add(this.BtnEnun2);
-            this.flowLayoutPanel2.Location = new System.Drawing.Point(85, 65);
-            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel2.Location = new System.Drawing.Point(125, 80);
+            this.flowLayoutPanel2.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
-            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.flowLayoutPanel2.Size = new System.Drawing.Size(343, 73);
+            this.flowLayoutPanel2.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.flowLayoutPanel2.Size = new System.Drawing.Size(526, 93);
             this.flowLayoutPanel2.TabIndex = 0;
             // 
             // BtnEnun1
@@ -91,11 +91,11 @@
             this.BtnEnun1.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.BtnEnun1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun1.ForeColor = System.Drawing.Color.White;
-            this.BtnEnun1.Location = new System.Drawing.Point(18, 19);
-            this.BtnEnun1.Margin = new System.Windows.Forms.Padding(12, 13, 12, 13);
+            this.BtnEnun1.Location = new System.Drawing.Point(24, 23);
+            this.BtnEnun1.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
             this.BtnEnun1.Name = "BtnEnun1";
-            this.BtnEnun1.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.BtnEnun1.Size = new System.Drawing.Size(128, 35);
+            this.BtnEnun1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun1.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun1.TabIndex = 0;
             this.BtnEnun1.Text = "Enunciado 1";
             this.BtnEnun1.UseVisualStyleBackColor = false;
@@ -109,11 +109,11 @@
             this.BtnEnun2.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.BtnEnun2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun2.ForeColor = System.Drawing.Color.White;
-            this.BtnEnun2.Location = new System.Drawing.Point(170, 19);
-            this.BtnEnun2.Margin = new System.Windows.Forms.Padding(12, 13, 12, 13);
+            this.BtnEnun2.Location = new System.Drawing.Point(257, 23);
+            this.BtnEnun2.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
             this.BtnEnun2.Name = "BtnEnun2";
-            this.BtnEnun2.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.BtnEnun2.Size = new System.Drawing.Size(155, 34);
+            this.BtnEnun2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun2.Size = new System.Drawing.Size(245, 47);
             this.BtnEnun2.TabIndex = 1;
             this.BtnEnun2.Text = "Enunciado 2, 3";
             this.BtnEnun2.UseVisualStyleBackColor = false;
@@ -125,11 +125,11 @@
             this.flowLayoutPanel3.Controls.Add(this.BtnEnun4);
             this.flowLayoutPanel3.Controls.Add(this.BtnEnun5);
             this.flowLayoutPanel3.Controls.Add(this.BtnEnun6);
-            this.flowLayoutPanel3.Location = new System.Drawing.Point(23, 142);
-            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.flowLayoutPanel3.Location = new System.Drawing.Point(31, 177);
+            this.flowLayoutPanel3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel3.Name = "flowLayoutPanel3";
-            this.flowLayoutPanel3.Padding = new System.Windows.Forms.Padding(6, 6, 6, 6);
-            this.flowLayoutPanel3.Size = new System.Drawing.Size(468, 72);
+            this.flowLayoutPanel3.Padding = new System.Windows.Forms.Padding(8, 7, 8, 7);
+            this.flowLayoutPanel3.Size = new System.Drawing.Size(715, 93);
             this.flowLayoutPanel3.TabIndex = 3;
             // 
             // BtnEnun4
@@ -140,11 +140,11 @@
             this.BtnEnun4.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.BtnEnun4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun4.ForeColor = System.Drawing.Color.White;
-            this.BtnEnun4.Location = new System.Drawing.Point(18, 19);
-            this.BtnEnun4.Margin = new System.Windows.Forms.Padding(12, 13, 12, 13);
+            this.BtnEnun4.Location = new System.Drawing.Point(24, 23);
+            this.BtnEnun4.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
             this.BtnEnun4.Name = "BtnEnun4";
-            this.BtnEnun4.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.BtnEnun4.Size = new System.Drawing.Size(128, 34);
+            this.BtnEnun4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun4.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun4.TabIndex = 0;
             this.BtnEnun4.Text = "Enunciado 4";
             this.BtnEnun4.UseVisualStyleBackColor = false;
@@ -158,11 +158,11 @@
             this.BtnEnun5.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.BtnEnun5.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun5.ForeColor = System.Drawing.Color.White;
-            this.BtnEnun5.Location = new System.Drawing.Point(170, 19);
-            this.BtnEnun5.Margin = new System.Windows.Forms.Padding(12, 13, 12, 13);
+            this.BtnEnun5.Location = new System.Drawing.Point(257, 23);
+            this.BtnEnun5.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
             this.BtnEnun5.Name = "BtnEnun5";
-            this.BtnEnun5.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.BtnEnun5.Size = new System.Drawing.Size(128, 34);
+            this.BtnEnun5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun5.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun5.TabIndex = 1;
             this.BtnEnun5.Text = "Enunciado 5";
             this.BtnEnun5.UseVisualStyleBackColor = false;
@@ -175,23 +175,23 @@
             this.BtnEnun6.FlatStyle = System.Windows.Forms.FlatStyle.System;
             this.BtnEnun6.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun6.ForeColor = System.Drawing.Color.White;
-            this.BtnEnun6.Location = new System.Drawing.Point(322, 19);
-            this.BtnEnun6.Margin = new System.Windows.Forms.Padding(12, 13, 12, 13);
+            this.BtnEnun6.Location = new System.Drawing.Point(490, 23);
+            this.BtnEnun6.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
             this.BtnEnun6.Name = "BtnEnun6";
-            this.BtnEnun6.Padding = new System.Windows.Forms.Padding(3, 3, 3, 3);
-            this.BtnEnun6.Size = new System.Drawing.Size(128, 34);
+            this.BtnEnun6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun6.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun6.TabIndex = 2;
             this.BtnEnun6.Text = "Enunciado 6";
             this.BtnEnun6.UseVisualStyleBackColor = false;
             // 
             // FrmPrincipal
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.PowderBlue;
-            this.ClientSize = new System.Drawing.Size(600, 366);
+            this.ClientSize = new System.Drawing.Size(924, 454);
             this.Controls.Add(this.flowLayoutPanel1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "FrmPrincipal";
             this.Text = "Menu Principal";
             this.flowLayoutPanel1.ResumeLayout(false);
