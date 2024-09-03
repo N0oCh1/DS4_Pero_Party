@@ -21,3 +21,16 @@ C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2
 C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.exe
 C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.pdb
 C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.FrmEnun2.resources
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\bin\Debug\Laboratorio2.exe.config
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\bin\Debug\Laboratorio2.exe
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\bin\Debug\Laboratorio2.pdb
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.csproj.AssemblyReference.cache
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.FrmEnun1.resources
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.FrmEnun2.resources
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.FrmEnun4.resources
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.FrmPrincipal.resources
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.Properties.Resources.resources
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.csproj.GenerateResource.cache
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.csproj.CoreCompileInputs.cache
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.exe
+C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.pdb

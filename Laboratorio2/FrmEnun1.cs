@@ -30,5 +30,10 @@ namespace Laboratorio2
             TxtbInpuesto.Text = Convert.ToString(impuesto);
             TxtbTotal.Text = Convert.ToString(ganancias+impuesto+total); 
         }
+
+        private void TxtbTotal_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

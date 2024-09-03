@@ -47,17 +47,24 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculadoraEnun1.cs" />
-    <Compile Include="FrmEnun2.cs">
+    <Compile Include="DeterminarNumEnun4.cs" />
+    <Compile Include="FrmEnun2-3.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="FrmEnun2.Designer.cs">
-      <DependentUpon>FrmEnun2.cs</DependentUpon>
+    <Compile Include="FrmEnun2-3.Designer.cs">
+      <DependentUpon>FrmEnun2-3.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmEnun1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmEnun1.Designer.cs">
       <DependentUpon>FrmEnun1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrmEnun4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEnun4.Designer.cs">
+      <DependentUpon>FrmEnun4.cs</DependentUpon>
     </Compile>
     <Compile Include="FrmPrincipal.cs">
       <SubType>Form</SubType>
@@ -70,8 +77,11 @@
     <EmbeddedResource Include="FrmEnun1.resx">
       <DependentUpon>FrmEnun1.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="FrmEnun2.resx">
-      <DependentUpon>FrmEnun2.cs</DependentUpon>
+    <EmbeddedResource Include="FrmEnun2-3.resx">
+      <DependentUpon>FrmEnun2-3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEnun4.resx">
+      <DependentUpon>FrmEnun4.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrmPrincipal.resx">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
@@ -84,6 +94,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
@@ -97,6 +108,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nefario.jpeg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
