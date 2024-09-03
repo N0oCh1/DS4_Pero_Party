@@ -17,11 +17,6 @@ namespace Laboratorio2
             InitializeComponent();
         }
 
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void numNumero_ValueChanged(object sender, EventArgs e)
         {
             numNumero.Maximum = 9999;

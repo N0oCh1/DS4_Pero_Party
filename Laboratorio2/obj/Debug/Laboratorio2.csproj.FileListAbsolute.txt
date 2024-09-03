@@ -34,3 +34,4 @@ C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.csp
 C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.csproj.CoreCompileInputs.cache
 C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.exe
 C:\Users\G-P\Source\Repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.pdb
+C:\Users\Ruben Feng\Desktop\Portafolios\DS 4\Laboratorio2\obj\Debug\Laboratorio2.FrmEnun4.resources

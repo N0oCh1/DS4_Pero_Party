@@ -56,9 +56,9 @@ namespace Laboratorio2
                     }
                 }
                 LbRegistros.Items.Add($"Cantidad de hombre: {hombre}");
-                LbRegistros.Items.Add($"Mayores a 40 años: {PHombre * Lgenero.Count} %");
+                LbRegistros.Items.Add($"Mayores a 40 años: {Math.Round(PHombre/hombre * 100)} %");
                 LbRegistros.Items.Add($"Cantidad de Mujeres: {mujer}");
-                LbRegistros.Items.Add($"Entre 18 a 25 años: {PMujer * Lgenero.Count} %");
+                LbRegistros.Items.Add($"Entre 18 a 25 años: {Math.Round(PMujer/mujer*100)} %");
 
             }
             else
