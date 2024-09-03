@@ -54,7 +54,7 @@
             this.flowLayoutPanel1.Location = new System.Drawing.Point(67, 79);
             this.flowLayoutPanel1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.flowLayoutPanel1.Name = "flowLayoutPanel1";
-            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(28, 28, 28, 28);
+            this.flowLayoutPanel1.Padding = new System.Windows.Forms.Padding(28);
             this.flowLayoutPanel1.Size = new System.Drawing.Size(779, 302);
             this.flowLayoutPanel1.TabIndex = 0;
             // 
@@ -92,9 +92,9 @@
             this.BtnEnun1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun1.ForeColor = System.Drawing.Color.White;
             this.BtnEnun1.Location = new System.Drawing.Point(24, 23);
-            this.BtnEnun1.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
+            this.BtnEnun1.Margin = new System.Windows.Forms.Padding(16);
             this.BtnEnun1.Name = "BtnEnun1";
-            this.BtnEnun1.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun1.Padding = new System.Windows.Forms.Padding(4);
             this.BtnEnun1.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun1.TabIndex = 0;
             this.BtnEnun1.Text = "Enunciado 1";
@@ -110,9 +110,9 @@
             this.BtnEnun2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun2.ForeColor = System.Drawing.Color.White;
             this.BtnEnun2.Location = new System.Drawing.Point(257, 23);
-            this.BtnEnun2.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
+            this.BtnEnun2.Margin = new System.Windows.Forms.Padding(16);
             this.BtnEnun2.Name = "BtnEnun2";
-            this.BtnEnun2.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun2.Padding = new System.Windows.Forms.Padding(4);
             this.BtnEnun2.Size = new System.Drawing.Size(245, 47);
             this.BtnEnun2.TabIndex = 1;
             this.BtnEnun2.Text = "Enunciado 2, 3";
@@ -141,9 +141,9 @@
             this.BtnEnun4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun4.ForeColor = System.Drawing.Color.White;
             this.BtnEnun4.Location = new System.Drawing.Point(24, 23);
-            this.BtnEnun4.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
+            this.BtnEnun4.Margin = new System.Windows.Forms.Padding(16);
             this.BtnEnun4.Name = "BtnEnun4";
-            this.BtnEnun4.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun4.Padding = new System.Windows.Forms.Padding(4);
             this.BtnEnun4.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun4.TabIndex = 0;
             this.BtnEnun4.Text = "Enunciado 4";
@@ -159,13 +159,14 @@
             this.BtnEnun5.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun5.ForeColor = System.Drawing.Color.White;
             this.BtnEnun5.Location = new System.Drawing.Point(257, 23);
-            this.BtnEnun5.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
+            this.BtnEnun5.Margin = new System.Windows.Forms.Padding(16);
             this.BtnEnun5.Name = "BtnEnun5";
-            this.BtnEnun5.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun5.Padding = new System.Windows.Forms.Padding(4);
             this.BtnEnun5.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun5.TabIndex = 1;
             this.BtnEnun5.Text = "Enunciado 5";
             this.BtnEnun5.UseVisualStyleBackColor = false;
+            this.BtnEnun5.Click += new System.EventHandler(this.BtnEnun5_Click);
             // 
             // BtnEnun6
             // 
@@ -176,13 +177,14 @@
             this.BtnEnun6.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BtnEnun6.ForeColor = System.Drawing.Color.White;
             this.BtnEnun6.Location = new System.Drawing.Point(490, 23);
-            this.BtnEnun6.Margin = new System.Windows.Forms.Padding(16, 16, 16, 16);
+            this.BtnEnun6.Margin = new System.Windows.Forms.Padding(16);
             this.BtnEnun6.Name = "BtnEnun6";
-            this.BtnEnun6.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.BtnEnun6.Padding = new System.Windows.Forms.Padding(4);
             this.BtnEnun6.Size = new System.Drawing.Size(201, 47);
             this.BtnEnun6.TabIndex = 2;
             this.BtnEnun6.Text = "Enunciado 6";
             this.BtnEnun6.UseVisualStyleBackColor = false;
+            this.BtnEnun6.Click += new System.EventHandler(this.BtnEnun6_Click);
             // 
             // FrmPrincipal
             // 

@@ -48,6 +48,12 @@
   <ItemGroup>
     <Compile Include="CalculadoraEnun1.cs" />
     <Compile Include="DeterminarNumEnun4.cs" />
+    <Compile Include="FrmEnun5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmEnun5.Designer.cs">
+      <DependentUpon>FrmEnun5.cs</DependentUpon>
+    </Compile>
     <Compile Include="frmEnun6.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -88,6 +94,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmEnun4.resx">
       <DependentUpon>FrmEnun4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmEnun5.resx">
+      <DependentUpon>FrmEnun5.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="frmEnun6.resx">
       <DependentUpon>frmEnun6.cs</DependentUpon>
