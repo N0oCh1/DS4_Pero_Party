@@ -38,7 +38,8 @@ namespace Laboratorio2
 
         private void BtnEnun6_Click(object sender, EventArgs e)
         {
-
+            frmEnun6 frmEnun6 = new frmEnun6();
+            frmEnun6.Show();
         }
 
         private void BtnEnun5_Click(object sender, EventArgs e)
