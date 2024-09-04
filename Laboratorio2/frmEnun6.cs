@@ -140,7 +140,7 @@ namespace Laboratorio2
             resultado.Reverse();
             foreach (Candidato vote in resultado)
             {
-                listResultado.Items.Add($"{vote.Nombre}{vote.Votos}");
+                listResultado.Items.Add($"Candidato: {vote.Nombre} / Numero de votos: {vote.Votos}");
 
             }
         }
