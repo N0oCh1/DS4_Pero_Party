@@ -50,3 +50,5 @@ C:\Users\Ruben Feng\Desktop\Portafolios\DS4\Proyecto\DS4_Pero_Party\Laboratorio2
 C:\Users\Ruben Feng\Desktop\Portafolios\DS4\Proyecto\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.csproj.CoreCompileInputs.cache
 C:\Users\Ruben Feng\Desktop\Portafolios\DS4\Proyecto\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.exe
 C:\Users\Ruben Feng\Desktop\Portafolios\DS4\Proyecto\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.pdb
+C:\Users\G-P\source\repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.FrmEnun5.resources
+C:\Users\G-P\source\repos\DS4_Pero_Party\Laboratorio2\obj\Debug\Laboratorio2.frmEnun6.resources

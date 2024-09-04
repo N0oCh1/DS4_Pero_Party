@@ -47,6 +47,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CalculadoraEnun1.cs" />
+    <Compile Include="Enun6Winer.cs" />
     <Compile Include="DeterminarNumEnun4.cs" />
     <Compile Include="FrmEnun5.cs">
       <SubType>Form</SubType>
