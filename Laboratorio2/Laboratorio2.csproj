@@ -130,5 +130,17 @@
   <ItemGroup>
     <None Include="Resources\Nefario.jpeg" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartaAjena.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\escudoColombia.jpeg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\colombia.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Escudo-de-Colombia.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
